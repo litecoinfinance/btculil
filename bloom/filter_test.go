@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
+	"github.com/litecoinfinance/btcd/chaincfg/chainhash"
+	"github.com/litecoinfinance/btcd/wire"
+	"github.com/litecoinfinance/btcutil"
+	"github.com/litecoinfinance/btcutil/bloom"
 )
 
 // TestFilterLarge ensures a maximum sized filter can be created.
