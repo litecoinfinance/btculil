@@ -85,7 +85,7 @@ func TestAddresses(t *testing.T) {
 			net: &chaincfg.MainNetParams,
 		},
 		{
-			name:    "litecoin mainnet p2pkh",
+			name:    "litecoinfinance mainnet p2pkh",
 			addr:    "LM2WMpR1Rp6j3Sa59cMXMs1SPzj9eXpGc1",
 			encoded: "LM2WMpR1Rp6j3Sa59cMXMs1SPzj9eXpGc1",
 			valid:   true,
@@ -184,7 +184,7 @@ func TestAddresses(t *testing.T) {
 			net: &chaincfg.MainNetParams,
 		},
 		{
-			name:    "litecoin mainnet P2SH ",
+			name:    "litecoinfinance mainnet P2SH ",
 			addr:    "MVcg9uEvtWuP5N6V48EHfEtbz48qR8TKZ9",
 			encoded: "MVcg9uEvtWuP5N6V48EHfEtbz48qR8TKZ9",
 			valid:   true,
